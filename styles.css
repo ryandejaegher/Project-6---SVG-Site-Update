@@ -5,7 +5,8 @@ body {
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
   color: #111;
-  background: url('images/background.png') #edeff0;
+  background: url('svgs/background.svg') #edeff0;
+  background-size: 53px;
 }
 
 #container {
@@ -61,6 +62,7 @@ main {
     }
       main li img {
         margin-bottom: 15px;
+        width: 100%;
       }
       main li span {
         margin-left: -40px;
@@ -75,3 +77,140 @@ footer {
   padding-bottom: 30px;
   color: #ba8058;
 }
+
+/****** 
+
+My Code 
+
+******/
+
+.logo {
+  width: 130px;
+}
+
+li:hover .heart, a:hover {
+  fill: #111;
+  transition: .7s;  
+}
+
+li:hover .map, a:hover {
+  fill: #111;
+  transition: .7s;  
+}
+
+li:hover .message, a:hover {
+  fill: #111;
+  transition: .7s;  
+}
+
+.home,
+.contact,
+.visit {
+  width: 14px;
+  height: 14px;
+} 
+
+.svg-logo-title {
+  display: none;
+  text-transform: uppercase;
+  color: #eaaa7f;
+}
+
+.dog {
+  width: 170px;
+  height: 170px;
+}
+
+.logo .st0 {
+  fill: #BA8058;
+}
+
+.logo .st1 {
+  fill: #EAAA7F;
+}
+
+.logo .st2 {
+  fill: #F4C6A6;
+}
+
+/****** 
+
+Dog Colors 
+
+******/
+
+.corgi-red .st0 {
+  fill: #BA8058;
+}
+
+.corgi-red .st1 {
+  fill: #FBFEFF;
+}
+
+.corgi-red .st2 {
+  fill: #2D3339;
+}
+
+.corgi-red .st3 {
+  fill: #EAAA7F;
+}
+
+.corgi-fawn .st0 {
+  fill: #EAAA7F;
+}
+
+.corgi-fawn .st1 {
+  fill: #FBFEFF;
+}
+
+.corgi-fawn .st2 {
+  fill: #2D3339;
+}
+
+.corgi-fawn .st3 {
+  fill: #F4C6A6;
+}
+
+.corgi-sable .st0 {
+  fill: #844B24;
+}
+
+.corgi-sable .st1 {
+  fill: #FBFEFF;
+}
+
+.corgi-sable .st2 {
+  fill: #2D3339;
+}
+
+.corgi-black-tan .st3 {
+  fill: #BA8058;
+}
+
+.corgi--black-tan .st0 {
+  fill: #BA8058;
+}
+
+.corgi-black-tan .st1 {
+  fill: #52595F;
+}
+
+.corgi-black-tan .st2 {
+  fill: #FBFEFF;
+}
+
+.corgi-black-tan .st3 {
+  fill: #2D3339;
+}
+
+@media (max-width: 420px) {
+  .logo-title {
+    display: none;
+  }
+  .svg-logo-title {
+    display: block;
+  }
+}
+
+
+
